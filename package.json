@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-nexmo-messages-olympus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Messages API consolidates and normalises exchanges across all messaging channels. It allows you to use a single API to interact with our various channels such as SMS, MMS, WhatsApp, Viber and F..",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-nexmo-messages-olympus",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "nexmo-messages-olympus"

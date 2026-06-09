@@ -53,9 +53,12 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post send a message to the given channel |
+<details>
+<summary><b>Default</b> (1 operations)</summary>
+
+- Post Send a message to the given channel
+
+</details>
 
 ---
 

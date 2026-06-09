@@ -8,7 +8,7 @@ import type {
 export class NexmoMessagesOlympusApi implements ICredentialType {
 	name = 'N8nDevNexmoMessagesOlympusApi';
 
-	displayName = 'nexmo-messages-olympus API';
+	displayName = 'Nexmo Messages Olympus API';
 
 	icon: Icon = { light: 'file:../nodes/NexmoMessagesOlympus/nexmo-messages-olympus.svg', dark: 'file:../nodes/NexmoMessagesOlympus/nexmo-messages-olympus.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NexmoMessagesOlympusApi implements ICredentialType {
 			default: 'https://api.nexmo.com/v1/messages',
 			required: true,
 			placeholder: 'https://api.nexmo.com/v1/messages',
-			description: 'The base URL of your nexmo-messages-olympus API server',
+			description: 'The base URL of your Nexmo Messages Olympus API server',
 		},
 		{
 			displayName: 'API Key',

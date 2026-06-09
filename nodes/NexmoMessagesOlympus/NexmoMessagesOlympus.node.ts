@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class NexmoMessagesOlympus implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nexmo-messages-olympus',
+		displayName: 'Nexmo Messages Olympus',
 		name: 'N8nDevNexmoMessagesOlympus',
 		icon: { light: 'file:./nexmo-messages-olympus.svg', dark: 'file:./nexmo-messages-olympus.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Messages API consolidates and normalises exchanges across all messaging channels. It allows you to use a single API to interact with our various channels such as SMS, MMS, WhatsApp, Viber and F..',
-		defaults: { name: 'nexmo-messages-olympus' },
+		defaults: { name: 'Nexmo Messages Olympus' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
